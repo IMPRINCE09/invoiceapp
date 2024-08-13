@@ -1,0 +1,31 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+::-webkit-scrollbar{
+  width: 15px;
+  
+}
+::-webkit-scrollbar-track{
+  background: #dae5ff;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#642bff,#ff22e6);
+
+}
+
+/* .back_img{
+  background: url('https://img.freepik.com/premium-photo/model-building-with-balcony-balcony_754951-4231.jpg?ga=GA1.1.2080822897.1705239928&semt=ais_hybrid') ;
+   
+  opacity: .8;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 80vh;
+  
+
+
+
+} */
