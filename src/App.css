@@ -3,16 +3,17 @@
   padding: 0px;
   box-sizing: border-box;
   
+  
 }
 ::-webkit-scrollbar{
-  width: 15px;
+  width: 6px;
   
 }
 ::-webkit-scrollbar-track{
   background: #dae5ff;
 }
 ::-webkit-scrollbar-thumb{
-  background: linear-gradient(#642bff,#ff22e6);
+  background: linear-gradient(#ff2222,#642bff);
 
 }
 
@@ -29,3 +30,141 @@
 
 
 } */
+
+.Crousel_section{
+  background-image: url('https://img.freepik.com/free-photo/luxurious-villa-with-modern-architectural-design_23-2151694097.jpg?t=st=1723547619~exp=1723551219~hmac=076ce12f07c3ba08f0db26fc5a4ab7b60fe4a2ba34390b20c19248337ab4ca83&w=826');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  
+
+}
+.Crousel_section_two{
+  background-image: url('https://as1.ftcdn.net/v2/jpg/08/64/62/48/1000_F_864624802_IXgXjpzx5kYmHsgtSwE6qnMimT2VtqBv.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+
+}
+.Crousel_section_three{
+  background-image: url('https://img.freepik.com/free-photo/house-with-red-car-front-it_1340-32084.jpg?t=st=1723612987~exp=1723616587~hmac=9924c5a540553b329777f48a206a4ae799398de4efbe086bef0ceb8e1795504b&w=826');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+
+}
+
+
+
+
+/* .text_floating{  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+} */
+/* .bg_text{
+  background: #4d4de9;
+  
+}
+ .text_floating {
+  width: 100%;
+  height: 30px;
+  color: white;
+  position: relative;
+  animation: mymove 10s  infinite;
+  animation-delay: 0.1s;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+@keyframes mymove {
+   from {left: 0px;}
+  to {left: 100%;} 
+  0%{
+    transform:translateX(0) ;
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes floating {
+   0% { transform: translateX(0,  0px); }
+  50%  { transform: translateX(0, 15px); }
+  100%   { transform: translateX(0, -0px); }     
+
+  from {
+    left: 0;
+  }
+
+  to {
+   left: 200px;
+  }
+  
+}
+ */
+
+ /* about section background image */
+ .about_image{
+  background-image: url('https://img.freepik.com/premium-photo/group-people-standing-front-sunset-background_406811-27776.jpg?w=996');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 8px;
+  }
+
+  .about_image_1{
+    background-image: url('https://img.freepik.com/premium-photo/group-people-standing-front-sunset-background_406811-27776.jpg?w=996');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+    }
+
+
+ /* tranistion to all */
+
+ .transition_div_scale{
+    transition: transform 2s;
+ }
+ .transition_div_scale:hover{
+  transform: scale(1.1);                       
+ }
+
+ .transition_div_big{
+  transition: transform 2s;
+}
+.transition_div_big:hover{
+transform: scale(1.2);                       
+}
+
+
+ .transition_div_scale_small{
+      transition:  transform .5s;
+
+ }
+ .transition_div_scale_small:hover{
+       transform: scale(1.02);
+ }
+
+
+ /* show data on hover */
+ 
+
+ .show_hiiden_item {
+  display: none;
+}
+
+.show_my_div:hover + .show_hiiden_item {
+  display: block;
+  
+}
